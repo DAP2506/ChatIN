@@ -1,0 +1,24 @@
+.messageBox{
+
+    width: auto;
+    margin: 3vmax;
+    padding: 2vmax;
+    border-radius: 1em;
+    display: inline-block;
+    clear: both;
+    font-size: 2vmax;
+}
+
+.right{
+    float: right;
+    background-color: rgb(51, 71, 71);
+    color: white;
+    text-align: left;
+}
+
+.left{
+    float: left;
+    text-align: left;
+    background-color: rgb(196, 255, 184);
+    
+} 

@@ -1,0 +1,82 @@
+.chatPage{
+    background-color: rgb(31, 30, 30);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    height: 90%;
+    width: 70%;
+    background-color: rgb(133, 141, 137);
+    /* border: 2px solid white; */
+
+}
+
+.header{
+    background-color: teal;
+    height: 15%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.header img{
+    margin: 1.5vmax;
+    height: 3vmax;
+    width: 3vmax;
+    cursor: pointer;
+    transition: all 0.4s;
+    
+
+}
+
+.chatBox{
+
+    border: 2px solid black;
+    height: 70%;
+    box-sizing: border-box;
+
+}
+
+.inputBox{
+
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+#chatInput{
+    width: 80%;
+    border: none;
+    padding: 2vmax;
+    background-color: white;
+    box-sizing: border-box;
+    outline: none;
+    font-size:2vmax;
+    font-family: cursive;
+}
+
+.sendButton{
+    background-color: teal;
+    color: white;
+    border: none;
+    width: 20%;
+    cursor: pointer;
+}
+
+.sendButton:hover{
+    background-color: rgb(2, 32, 32);
+    border-radius: 50%;
+    transition: 1s;
+}
